@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kabaddi Score Board</title>
+        <link rel="stylesheet" href="score_board.css"/>
+        <script src="score-board.js"></script>
+    </head>
+    <body>
+        <div class="title">
+            <h1>Kabaddi Score Board</h1>
+        </div>
+        <div class="container"> 
+            <div  class="container-class">
+                 <u><b>TEAM A</b></u>
+                 <h3 id="ScoreA" class="h3" >0</h3>
+                <button id="btnA" class="btn" onClick="incA()">+</button>
+                <button id="btnA" class="btn" onClick="decA()">-</button><br/><br/>
+                <button id="btnA" class="btn" onClick="bonusA()" style="width: 80px;">Bonus</button>
+                <button id="btnA" class="btn" onClick="AlloutA()" style="width: 80px;">All Out</button>
+            </div>
+           
+            <div class="Vs-container">
+                <h1>Vs</h1>
+            </div>
+            
+            <div class="container-class">
+                <u><b>TEAM B</b></u>
+                <h3 id="ScoreB"  class="h3" >0</h3>
+                <button id="btnB" class="btn" onClick="incB()">+</button>
+                <button id="btnB" class="btn" onClick="decB()">-</button><br/><br/>
+                <button id="btnA" class="btn" onClick="bonusB()" style="width: 80px;">Bonus</button>
+                <button id="btnA" class="btn" onClick="AlloutB()" style="width: 80px;">All Out</button>
+            </div>    
+        </div>
+        
+    </body>
+</html>
