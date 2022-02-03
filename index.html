@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Kabaddi Score Board</title>
-        <link rel="stylesheet" href="style.css"/>
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="./css/style.css"/>
+        <script src="./JavaScript/script.js"></script>
     </head>
     <body>
         <div class="title">
             <h1>Kabaddi Score Board</h1>
         </div>
         <div class="container"> 
-            <div  class="container-class">
+            <div  class="container-Score">
                  <u><b>TEAM A</b></u>
                  <h3 id="ScoreA" class="h3" >0</h3>
                 <button id="btnA" class="btn" onClick="incA()">+</button>
@@ -18,12 +20,8 @@
                 <button id="btnA" class="btn" onClick="bonusA()" style="width: 80px;">Bonus</button>
                 <button id="btnA" class="btn" onClick="AlloutA()" style="width: 80px;">All Out</button>
             </div>
-           
-            <div class="Vs-container">
-                <h1>Vs</h1>
-            </div>
-            
-            <div class="container-class">
+                <h1 class="Vs-container">Vs</h1>
+            <div class="container-Score">
                 <u><b>TEAM B</b></u>
                 <h3 id="ScoreB"  class="h3" >0</h3>
                 <button id="btnB" class="btn" onClick="incB()">+</button>
